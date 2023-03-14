@@ -14,7 +14,7 @@ full time: 1501f (25.017) | segment time: 209f (3.483)
 
 route: enters from (0,0), and goes into (1,-1) on the upper side
 
-full time: 1773f (29.550) | segment time: 272f (4.53)
+full time: 1773f (29.550) | segment time: 272f (4.533)
 
 **--`04_game_(1,-1)`--**
 
