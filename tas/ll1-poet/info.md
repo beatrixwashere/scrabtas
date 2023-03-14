@@ -34,6 +34,18 @@ route: enters from (2,-1), and ends on the frame the wand is collected (p0 stand
 
 full time: 2233f (37.217) | segment time: 157f (2.617)
 
+**--`07_game_(2,0)_p1`--**
+
+route: moves to the mote drop position, clears the junk piles in front of the bridge for later, and instantly kills the mote by contact
+
+full time: 2411f (40.183) | segment time: 178f (2.967)
+
+**--`08_game_(2,0)_p2`--**
+
+route: moves to the mote drop position below, and kills the mote to the left with strata blasts while instantly killing the other mote by contact
+
+full time: 2595f (43.250) | segment time: 184f (3.067)
+
 **--improvements--**
 
 `01`: should be maxed
@@ -41,5 +53,9 @@ full time: 2233f (37.217) | segment time: 157f (2.617)
 `02-05`: movement optimization should save some frames
 
 `06`: maybe maxed? one more frame might be possible
+
+`07`: should be maxed
+
+`08`: maybe maxed? there might be a better combat sequence
 
 `(2,0)`: wcskip hasn't been found yet in the current version but it could potentially save several seconds
