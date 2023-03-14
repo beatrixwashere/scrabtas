@@ -30,7 +30,7 @@ full time: 2076f (34.600) | segment time: 146f (2.433)
 
 **--`06_game_(2,0)_p0`--**
 
-route: enters from (2,-1), and ends on the frame the wand is collected (p0 stands for phase 0, where the wand is collected before the fight)
+route: enters from (2,-1), and ends on the frame the wand is collected (p0 stands for phase 0)
 
 full time: 2233f (37.217) | segment time: 157f (2.617)
 
@@ -40,6 +40,6 @@ full time: 2233f (37.217) | segment time: 157f (2.617)
 
 `02-05`: movement optimization should save some frames
 
-`06_p0`: maybe maxed? one more frame might be possible
+`06`: maybe maxed? one more frame might be possible
 
-`06`: wcskip hasn't been found yet in the current version but it could potentially save several seconds
+`(2,0)`: wcskip hasn't been found yet in the current version but it could potentially save several seconds
