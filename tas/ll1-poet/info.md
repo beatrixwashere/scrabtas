@@ -36,13 +36,13 @@ full time: 2233f (37.217) | segment time: 157f (2.617)
 
 **--`07_game_(2,0)_p1`--**
 
-route: moves to the mote drop position, clears the junk piles in front of the bridge for later, and instantly kills the mote by contact
+route: moves to the mote drop position, clears the junk piles in front of the bridge for later, and instantly kills the mote by contact (p1 stands for phase 1)
 
 full time: 2411f (40.183) | segment time: 178f (2.967)
 
 **--`08_game_(2,0)_p2`--**
 
-route: moves to the mote drop position below, and kills the mote to the left with strata blasts while instantly killing the other mote by contact
+route: moves to the mote drop position below, and kills the mote to the left with strata blasts while instantly killing the other mote by contact (p2 stands for phase 2)
 
 full time: 2595f (43.250) | segment time: 184f (3.067)
 
