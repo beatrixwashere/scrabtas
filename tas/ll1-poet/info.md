@@ -38,4 +38,6 @@ full time: 2233f (37.217) | segment time: 157f (2.617)
 
 `01`: should be maxed
 
-`02-06_p0`: movement optimization should save some frames
+`02-05`: movement optimization should save some frames
+
+`06_p0`: maybe maxed? one more frame might be possible
