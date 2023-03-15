@@ -64,9 +64,23 @@ route: moves directly up into (2,1) on the lower side
 
 full time: 3376f (56.267) | segment time: 83f (1.383)
 
-2805, 210
-3293, 488
-3376, 83
+**--`12_game_(2,1)`--**
+
+route: enters from (2,0), and goes into (3,1) on the left side
+
+full time: 3611f (1:00.183) | segment time: 235f (3.917)
+
+**--`13_game_(3,1)`--**
+
+route: enters from (2,1), and goes into (3,2) on the lower side
+
+full time: 3790f (1:03.167) | segment time: 179f (2.983)
+
+**--`14_game_(3,2)_p1`--**
+
+route: enters from (3,1), immediately fires a strata blast to start the fight, and keeps feathering and dodging for the rest of phase 1 (p1 stands for part 1)
+
+full time: 4213f (1:10.217) | segment time: 423f (7.050)
 
 **--improvements--**
 
@@ -83,3 +97,7 @@ full time: 3376f (56.267) | segment time: 83f (1.383)
 `10-11`: should be maxed
 
 `(2,0)`: wcskip hasn't been found yet in the current version but it could potentially save several seconds
+
+`12-13`: movement optimization should save some frames
+
+`14`: maybe maxed? there's a small chance for some earlier frames on the feathering
