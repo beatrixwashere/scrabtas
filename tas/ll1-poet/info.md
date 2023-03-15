@@ -84,9 +84,25 @@ full time: 4213f (1:10.217) | segment time: 423f (7.050)
 
 **--`15_game_(3,2)_p2`--**
 
-route: continues to feather, and spams at some points before jumps or reflections
+route: continues to feather, and spams at some points before jumps or reflections (p2 stands for part 2)
 
 full time: 4734f (1:18.900) | segment time: 521f (8.683)
+
+**--`16_game_(3,2)_p3`--**
+
+route: dodges attacks while feathering (p3 stands for part 3)
+
+full time: 5711f (1:35.183) | segment time: 977f (16.283)
+
+**--`17_game_(3,2)_p4`--**
+
+route: dodges attacks and gets the last hits in to finish the tas (p4 stands for part 4)
+
+*final time: 5973f (1:39.550)* | segment time: 262f (4.367)
+
+**--`18_game_(3,2)_encode`--**
+
+route: does nothing and waits for a second after the gate opens (used for the video encode)
 
 **--improvements--**
 
@@ -106,4 +122,4 @@ full time: 4734f (1:18.900) | segment time: 521f (8.683)
 
 `12-13`: movement optimization should save some frames
 
-`14-15`: combat can be optimized
+`14-17`: combat can be optimized
