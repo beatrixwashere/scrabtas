@@ -82,6 +82,12 @@ route: enters from (3,1), immediately fires a strata blast to start the fight, a
 
 full time: 4213f (1:10.217) | segment time: 423f (7.050)
 
+**--`15_game_(3,2)_p2`--**
+
+route: continues to feather, and spams at some points before jumps or reflections
+
+full time: 4734f (1:18.900) | segment time: 521f (8.683)
+
 **--improvements--**
 
 `01`: should be maxed
@@ -92,7 +98,7 @@ full time: 4213f (1:10.217) | segment time: 423f (7.050)
 
 `07`: should be maxed
 
-`08-09`: maybe maxed? there might be a better combat sequence
+`08-09`: combat can be optimized
 
 `10-11`: should be maxed
 
@@ -100,4 +106,4 @@ full time: 4213f (1:10.217) | segment time: 423f (7.050)
 
 `12-13`: movement optimization should save some frames
 
-`14`: maybe maxed? there's a small chance for some earlier frames on the feathering
+`14-15`: combat can be optimized
