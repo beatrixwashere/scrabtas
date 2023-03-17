@@ -116,7 +116,7 @@ route: does nothing and waits for a second after the gate opens (used for the vi
 
 `08-09`: combat can be optimized
 
-`10-11`: should be maxed
+`10-11`: should be maxed unless menu storage is possible for saving
 
 `(2,0)`: wcskip hasn't been found yet in the current version but it could potentially save several seconds
 
