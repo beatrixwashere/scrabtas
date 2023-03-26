@@ -34,8 +34,16 @@ route changes: none
 
 improvement: -11f [+1f from last segment]
 
+**--`07_game_(2,0)_p2`--**
+
+route changes: none
+
+improvement: -11f [-0f from last segment]
+
 **--improvements--**
 
 `01`: should be maxed
 
 `02-06`: movement is optimized but a couple more frames may be possible
+
+`07`: should be maxed
