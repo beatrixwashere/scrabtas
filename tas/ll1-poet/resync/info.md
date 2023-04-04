@@ -1,3 +1,5 @@
+**i'm going to move this entire folder to a new any% folder at some point but i'm too lazy tp do it rn lol**
+
 **--`01_start_poet`--**
 
 route changes: none
