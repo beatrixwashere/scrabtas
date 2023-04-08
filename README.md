@@ -13,7 +13,7 @@ the `/tas` folder currently contains four different folders:
 
 `/any%`, which contains the movie files used for beating wf
 
-`/ll1`, which contains the movie files used for beating ll1
+`/ll1-poet`, which contains the movie files used for beating ll1
 
 `/extras`, which contains movie files that aren't used in any playthroughs yet
 
