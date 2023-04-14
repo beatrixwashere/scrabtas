@@ -1,0 +1,60 @@
+**--scrabdackle ram watch setups--**
+*ram watch allows you to monitor certain variables in a game, such as position, speed, etc. it is now possible to do this with scrabdackle, and here are the current easiest methods of setting up certain values.*
+
+__--initial setup--__
+*all setups listed here used these first steps. make sure you do this setup before following any other ones.*
+1) playback `01_start_poet` until it finishes
+2) switch to recording mode
+3) save a state
+
+__--xypos setup--__
+*this displays blue's x and y positions. these are not the exact position values, but instead what pixel they are on.*
+1) go to tools > ram search
+2) compare to specific value and set it to 266, set comparison to equal to, and set the format to a float type
+3) click new and wait for results
+4) hold right and advance 1 frame
+5) set the specific value to 267 and click search
+6) click on the only result and click add watch
+7) set the label to xpos, and click save
+8) click stop and close the window
+9) go to tools > ram watch
+10) click add watch
+11) paste the address but replace the `8` at the end with `c`, set the label to `ypos`, and click save
+12) blue's x and y positions will now be displayed in the top right corner!
+
+__--xysub setup--__
+*this displays blue's precise x and y positions. each pixel has a range of 0.5 in either direction, so 162.677 and 163.233 both round to 163.*
+1) go to tools > ram search
+2) compare to specific value and set it to 266, set comparison to equal to, and set the format to a float type
+3) click new and wait for results
+4) hold right and advance 1 frame
+5) set the specific value to 266.5, set comparison to greater than, and click search
+6) click on the first result and click add watch
+7) set the label to xsub, and click save
+8) click stop and close the window
+9) go to tools > ram watch
+10) click add watch
+11) paste the address but replace the `8` at the end with `c`, set the label to `ysub`, and click save
+12) blue's precise x and y positions will now be displayed in the top right corner!
+
+__--xyspd setup--__
+*this displays blue's x and y speed values. each unit of speed corresponds to one subpixel, so a speed of 60 will move at one pixel every frame.*
+1) hold right and advance 4 frames
+2) go to tools > ram search
+3) compare to specific value and set it to 160, set comparison to equal to, and set the format to a float type
+4) click new and wait for results
+5) hold nothing and advance 4 frames
+6) set the specific value to 0 and click search
+7) hold right and advance 1 frame
+8) click on the first result that has a value of 50 and click add watch
+9) set the label to xspd, and click save
+10) click stop and close the window
+11) go to tools > ram watch
+12) click add watch
+13) paste the address but replace the `8` at the end with `c`, set the label to `yspd`, and click save
+14) blue's x and y speed values will now be displayed in the top right corner!
+
+__--extra notes--__
+since the addresses are dynamic and change every instance, it isn't possible to save the addresses and use them later. there is an option to scan pointers for the addresses, but i haven't had any luck with it yet. however, if it works, then it will be possible to save ram watch configurations and share them with other people. for now, this is the best way to do it without pointers.
+
+i hope this helps, and happy tasing!
