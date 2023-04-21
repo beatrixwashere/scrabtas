@@ -23,13 +23,11 @@ the `/tas` folder currently contains four different folders:
 
 movie files are split into segments, usually stopping when entering a new room, completing a boss phase, exiting the main menu, etc
 
-movie files have a certain naming format, which is `#_[start/game]_(x,y)_[info].ltm]`
+movie files have a certain naming format, which is `#_(x,y)_[info].ltm]`
 
 `#` is the order of the segment
 
-`[start/game]` is either `start` or `game`, with `start` being the main menu and `game` being gameplay
-
-`(x,y)` is the coordinates of the room in the segment (only used for game files)
+`(x,y)` is the coordinates of the room in the segment, or (start) if in the menu and (skrine) if in the skrine room
 
 `[info]` is any other info about the file
 
