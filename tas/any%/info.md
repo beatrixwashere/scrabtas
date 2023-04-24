@@ -102,6 +102,48 @@ route: breaks the shrub with a strata blast and walks into the water, which resp
 
 full time: 5125f (1:25.417) | segment time: 383f (6.383)
 
+--`17_(7,0)_p1`--
+
+route: walks directly right to activate the arena
+
+full time: 5289f (1:28.150) | segment time: 164f (2.733)
+
+--`18_(7,0)_p2`--
+
+route: dodges and kills the first ruins beast
+
+full time: 5878f (1:37.967) | segment time: 589f (9.817)
+
+--`19_(7,0)_p3`--
+
+route: dodges and kills the ruins ghoul
+
+full time: 6065f (1:41.083) | segment time: 187f (3.117)
+
+--`20_(7,0)_p4`--
+
+route: dodges and kills the ruins hound
+
+full time: 6245f (1:44.083) | segment time: 180f (3.000)
+
+--`21_(7,0)_p5`--
+
+route: dodges and kills the second ruins beast
+
+full time: 6763f (1:52.717) | segment time: 518f (8.633)
+
+--`22_(7,0)_p6`--
+
+route: dodges and kills the third ruins beast
+
+full time: 7183f (1:59.717) | segment time: 420f (7.000)
+
+--`23_(7,0)_p7`--
+
+route: adjusts y position to not hit the wall in the next room, and waits to go right into (8,0)
+
+full time: 7453f (2:04.217) | segment time: 270f (4.500)
+
 ***--improvements--***
 
 `00`: should be maxed
@@ -116,6 +158,18 @@ full time: 5125f (1:25.417) | segment time: 383f (6.383)
 
 `11-13`: movement optimization
 
+`14`: plenty of room for better enemy manip
+
+`15`: movement/combat optimization
+
+`16`: movement optimization
+
+`17`: should be maxed
+
+`18-22`: plenty of room for combat optimization
+
+`23`: should be maxed
+
 ***--resyncs--***
 
 `r1`: to resync in `07`, move up and right until blue stops moving up on the wall, then move right. after holding right for long enough, blue's position will eventually become `(478.553, 130.049)`, and by letting go of right, their position will then become `(478.473, 130.076)`. there is a short waiting period to give leniency for resyncs, and then wand challenge inputs start after frame 2371. this explanation is pretty complicated, so playback the file for a visual of the resync.
@@ -127,3 +181,5 @@ full time: 5125f (1:25.417) | segment time: 383f (6.383)
 `r4`: exact same mechanics as `r3`
 
 `r5`: blue's subpixels reset upon respawning, might need more testing
+
+`r6`: blue walks into the corner of two walls, which resets subpixels completely. this resync has two frames of leniency, but can be optimized for more.
