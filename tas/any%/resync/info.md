@@ -12,13 +12,13 @@
 
 `05`: -8f [-0f]
 
-`06`: -565f [-557f]
+`06`: -674f [-666f]
 
-`07`: -400f [+165f]
+`07`: -509f [+165f]
 
-`08`: -474f [-74f]
+`08`: -583f [-74f]
 
-`09`: -475f [-1f]
+`09`: -584f [-1f]
 
 ***--files--***
 
@@ -40,7 +40,7 @@ authors: Crash
 
 --`02_(6,9)`--
 
-route: closes the scry menu, and goes right into (7,9)
+route: goes right into (7,9)
 
 full time: 1616f (26.933) | segment time: 184f (3.067)
 
@@ -74,7 +74,7 @@ authors: Crash
 
 route: uses menu storage to regain control, waits a bit for the proceed button to appear, transitions right and proceeds to fall in the water and get teleported back (also a resync, see `r1`), and goes right into (9,8) with strata blast after regaining control
 
-full time: 2797f (46.617) | segment time: 583f (9.717)
+full time: 2688f (44.800) | segment time: 474f (7.900)
 
 authors: queenbea
 
@@ -82,7 +82,7 @@ authors: queenbea
 
 route: goes up into (9,7), and resyncs on the wall (see `r2`)
 
-full time: 3177f (52.950) | segment time: 380f (6.333)
+full time: 3068f (51.133) | segment time: 380f (6.333)
 
 authors: queenbea
 
@@ -90,7 +90,7 @@ authors: queenbea
 
 route: goes right into (10,7)
 
-full time: 3399f (56.650) | segment time: 222f (3.700)
+full time: 3290f (54.833) | segment time: 222f (3.700)
 
 authors: queenbea
 
@@ -98,7 +98,7 @@ authors: queenbea
 
 route: goes right into (11,7), and resyncs on the wall (see `r3`)
 
-full time: 3698f (1:01.633) | segment time: 299f (4.983)
+full time: 3589f (59.817) | segment time: 299f (4.983)
 
 authors: queenbea
 
@@ -106,11 +106,7 @@ authors: queenbea
 
 `00`: should be maxed
 
-`01-05`: might have a few frames left for movement optimization
-
-`06`: probably maxed
-
-`07-09`: should have some movement optimization
+`01-09`: movement optimization
 
 ***--resyncs--***
 
