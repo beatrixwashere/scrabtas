@@ -20,6 +20,8 @@
 
 `09`: -584f [-1f]
 
+`10`: -587f [-3f]
+
 ***--files--***
 
 --`00_(start)_poet)`--
@@ -102,11 +104,19 @@ full time: 3589f (59.817) | segment time: 299f (4.983)
 
 authors: queenbea
 
+--`10_(11,7)`--
+
+route: gets hit by a ghoul to damage boost through the other two (also resyncs, see `r4`), and goes right into (12,7)
+
+full time: 3922f (1:05.367) | segment time: 333f (5.550)
+
+authors: queenbea
+
 ***--potential--***
 
 `00`: should be maxed
 
-`01-09`: movement optimization
+`01-10`: movement optimization
 
 ***--resyncs--***
 
@@ -115,3 +125,5 @@ authors: queenbea
 `r2`: when transitioning between rooms to the left or right, blue's x subpixels will be reset, and when transitioning between rooms to the top or bottom, blue's y subpixels will be reset. when blue walks against a wall, their x/y subpixels will be reset depending on the wall direction, so combining these two results in a resync.
 
 `r3`: same mechanics as `r2`
+
+`r4`: by walking into the corner of two walls, blue's subpixels get reset completely.
