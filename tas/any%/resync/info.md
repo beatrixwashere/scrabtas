@@ -22,6 +22,8 @@
 
 `10`: -587f [-3f]
 
+`11`: -594f [-7f]
+
 ***--files--***
 
 --`00_(start)_poet)`--
@@ -112,11 +114,21 @@ full time: 3922f (1:05.367) | segment time: 333f (5.550)
 
 authors: queenbea
 
+--`11_(12,7)`--
+
+routes: waits for a bit to kill the ghoul, then goes down into (12,8)
+
+full time: 4148f (1:09.133) | segment time: 226f (3.767)
+
+authors: queenbea
+
 ***--potential--***
 
 `00`: should be maxed
 
-`01-10`: movement optimization
+`01-09`: movement optimization
+
+`10-11`: movement/enemy optimization
 
 ***--resyncs--***
 
@@ -126,4 +138,4 @@ authors: queenbea
 
 `r3`: same mechanics as `r2`
 
-`r4`: by walking into the corner of two walls, blue's subpixels get reset completely.
+`r4`: by walking into the corner of two walls, blue's subpixels gets reset completely
