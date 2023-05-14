@@ -7,6 +7,8 @@ github repo for tasing scrabdackle, including movie files, encodes, and other re
 
 `/tas` is a folder containing libtas movie files and encodes for each segment
 
+`/lua` is a folder containing useful lua scripts
+
 --/tas guide--
 
 the `/tas` folder currently contains four different folders:
