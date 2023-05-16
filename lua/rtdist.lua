@@ -1,3 +1,5 @@
+--- rtdist v.01.01 --- by queenbea
+
 --- usage instructions ---
 -- 1) input your xpos address after the 0x here:
 address = 0x00000000
