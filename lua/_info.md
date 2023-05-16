@@ -6,7 +6,7 @@
 
 function: automatically finds the addresses for xypos and xypix
 
-stability: 3/5
+stability: 4/5
 
 version: v.02.00
 
