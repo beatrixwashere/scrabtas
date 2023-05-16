@@ -1,8 +1,11 @@
+--- autosearch v.01.01 --- by queenbea ---
+
 --- usage instructions ---
--- 1) go to tools > lua > execute lua script and run this script
--- 2) go to tools > lua > lua console to see the output
--- 3) hold right and advance two frames
--- 4) insert the results into ram watch
+-- 1) playback 00_(start)_poet
+-- 2) go to tools > lua > execute lua script and run this script
+-- 3) go to tools > lua > lua console to see the output
+-- 4) hold right and advance two frames
+-- 5) insert the results into ram watch
 
 --- debugging ---
 -- 1) manually search for the xpix address and check if it's out of range (range is lowerbound to upperbound)
