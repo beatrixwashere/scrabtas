@@ -2,14 +2,22 @@
 
 (all instructions are contained within the script)
 
+`autosearch.lua`
+
+function: automatically finds the addresses for xypos and xypix
+
+stability: 3/5
+
+version: v.01.01
+
+upcoming: xyspd search
+
 `rtdist.lua`
 
 function: shows the distance between a room transition in all directions
 
 stability: 5/5
 
-`autosearch.lua`
+version: v.01.01
 
-function: automatically finds the addresses for xypos and xypix
-
-stability: 3/5
+upcoming: ingame address input
