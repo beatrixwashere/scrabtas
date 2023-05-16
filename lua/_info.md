@@ -8,9 +8,9 @@ function: automatically finds the addresses for xypos and xypix
 
 stability: 3/5
 
-version: v.01.01
+version: v.02.00
 
-upcoming: xyspd search
+upcoming: automatic inputs
 
 `rtdist.lua`
 
