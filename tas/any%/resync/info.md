@@ -8,21 +8,21 @@
 
 `03`: -2f [+3f]
 
-`04`: -8f [-6f]
+`04`: -10f [-8f]
 
-`05`: -8f [-0f]
+`05`: -5f [+5f]
 
-`06`: -674f [-666f]
+`06`: -665f [-660f]
 
-`07`: -509f [+165f]
+`07`: -510f [+155f]
 
-`08`: -583f [-74f]
+`08`: -587f [-77f]
 
-`09`: -584f [-1f]
+`09`: -588f [-1f]
 
-`10`: -587f [-3f]
+`10`: -600f [-12f]
 
-`11`: -594f [-7f]
+`11`: -639f [-39f]
 
 ***--files--***
 
@@ -62,7 +62,7 @@ authors: Crash (GoldenGuy1000)
 
 route: goes up into (8,8)
 
-full time: 2056f (34.267) | segment time: 146f (2.433)
+full time: 2054f (34.233) | segment time: 144f (2.400)
 
 authors: Crash
 
@@ -70,7 +70,7 @@ authors: Crash
 
 route: collects the wand
 
-full time: 2214f (36.900) | segment time: 158f (2.633)
+full time: 2217f (36.950) | segment time: 163f (2.717)
 
 authors: Crash
 
@@ -78,31 +78,31 @@ authors: Crash
 
 route: uses menu storage to regain control, waits a bit for the proceed button to appear, transitions right and proceeds to fall in the water and get teleported back (also a resync, see `r1`), and goes right into (9,8) with strata blast after regaining control
 
-full time: 2688f (44.800) | segment time: 474f (7.900)
+full time: 2697f (44.950) | segment time: 480f (8.000)
 
-authors: queenbea
+authors: Crash (queenbea)
 
 --`07_(9,8)`--
 
 route: goes up into (9,7), and resyncs on the wall (see `r2`)
 
-full time: 3068f (51.133) | segment time: 380f (6.333)
+full time: 3067f (51.117) | segment time: 370f (6.167)
 
-authors: queenbea
+authors: Crash
 
 --`08_(9,7)`--
 
 route: goes right into (10,7)
 
-full time: 3290f (54.833) | segment time: 222f (3.700)
+full time: 3286f (54.767) | segment time: 219f (3.650)
 
-authors: queenbea
+authors: Crash
 
 --`09_(10,7)`--
 
 route: goes right into (11,7), and resyncs on the wall (see `r3`)
 
-full time: 3589f (59.817) | segment time: 299f (4.983)
+full time: 3585f (59.750) | segment time: 299f (4.983)
 
 authors: queenbea
 
@@ -110,17 +110,17 @@ authors: queenbea
 
 route: gets hit by a ghoul to damage boost through the other two (also resyncs, see `r4`), and goes right into (12,7)
 
-full time: 3922f (1:05.367) | segment time: 333f (5.550)
+full time: 3909f (1:05.150) | segment time: 324f (5.400)
 
-authors: queenbea
+authors: Crash
 
 --`11_(12,7)`--
 
 routes: waits for a bit to kill the ghoul, then goes down into (12,8)
 
-full time: 4148f (1:09.133) | segment time: 226f (3.767)
+full time: 4103f (1:08.383) | segment time: 194f (3.233)
 
-authors: queenbea
+authors: Crash
 
 ***--potential--***
 
