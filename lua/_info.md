@@ -4,13 +4,13 @@
 
 `autosearch.lua`
 
-function: automatically finds the addresses for xypos and xypix
+function: automatically finds the addresses for xypos, xypix, and xyspd
 
 stability: 4/5
 
-version: v.02.00
+version: v.03.00
 
-upcoming: automatic inputs
+upcoming: magic address
 
 `rtdist.lua`
 
