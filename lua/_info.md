@@ -12,6 +12,16 @@ version: v.03.00
 
 upcoming: magic address
 
+`ghostcompare.lua`
+
+function: compares against a ghost of your run to make improvements easier
+
+stability: 5/5
+
+version: v.01.00
+
+upcoming: precise distance
+
 `rtdist.lua`
 
 function: shows the distance between a room transition in all directions
