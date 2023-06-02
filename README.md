@@ -1,7 +1,7 @@
 # scrabtasle
 github repo for tasing scrabdackle, including movie files, encodes, and other resources
 
---general file info--
+**--general file info--**
 
 `README.md` is the text file that you're reading right now, containing info for navigating the repo
 
@@ -9,9 +9,11 @@ github repo for tasing scrabdackle, including movie files, encodes, and other re
 
 `/lua` is a folder containing useful lua scripts
 
---/tas guide--
+**--/tas guide--**
 
 the `/tas` folder currently contains four different folders:
+
+`/100%`, which contains the movie files used for completing all of the game
 
 `/any%`, which contains the movie files used for beating wf
 
@@ -33,7 +35,7 @@ movie files have a certain naming format, which is `#_(x,y)_[info].ltm]`
 
 `[info]` is any other info about the file
 
-in playthrough folders like `/ll1-poet`, there are two more folders in addition to all the regular segments:
+in playthrough folders like `/any%`, there are two more folders in addition to all the regular segments:
 
 `/resync`, which contains movie files that are currently being resynced
 
