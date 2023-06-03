@@ -1,6 +1,8 @@
-***--scripts--***
+## scripts
 
 (all instructions are contained within the script)
+
+___
 
 `autosearch.lua`
 
@@ -12,6 +14,8 @@ version: v.03.01
 
 upcoming: magic address
 
+___
+
 `ghostcompare.lua`
 
 function: compares against a ghost of your run to make improvements easier
@@ -21,6 +25,8 @@ stability: 5/5
 version: v.01.00
 
 upcoming: precise distance
+
+___
 
 `rtdist.lua`
 
