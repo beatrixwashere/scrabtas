@@ -72,7 +72,7 @@ ___
 
 `005(1):` death warp
 
-`005(2):` place of power
+`005(2):` place of power | (336, 240)
 
 `006:` walking against wall
 
