@@ -15,14 +15,14 @@
 
 -- setup variables
 lowerbound, upperbound = 0x366d8f68, 0x38261cb8
-spdlbound, spdubound = 0x1432b0, 0x2b2340
+spdlbound, spdubound = 0x142ff0, 0x2b2340
 xpos, ypos, xpix, ypix, xspd, yspd = 0x0, 0x0, 0x0, 0x0, 0x0, 0x0
 searched = false
 function onStartup()
     -- reset variables
     print("-- autosearch v.03.00 -- by queenbea --")
     lowerbound, upperbound = 0x366d8f68, 0x38261cb8
-    spdlbound, spdubound = 0x1432b0, 0x2b2340
+    spdlbound, spdubound = 0x142ff0, 0x2b2340
     xpos, ypos, xpix, ypix, xspd, yspd = 0x0, 0x0, 0x0, 0x0, 0x0, 0x0
     searched = false
 end
