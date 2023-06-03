@@ -1,7 +1,9 @@
 # scrabtasle
 github repo for tasing scrabdackle, including movie files, encodes, and other resources
 
-**--general file info--**
+___
+
+### general file info
 
 `README.md` is the text file that you're reading right now, containing info for navigating the repo
 
@@ -9,7 +11,9 @@ github repo for tasing scrabdackle, including movie files, encodes, and other re
 
 `/lua` is a folder containing useful lua scripts
 
-**--/tas guide--**
+___
+
+### /tas guide
 
 the `/tas` folder currently contains four different folders:
 
@@ -41,8 +45,8 @@ in playthrough folders like `/any%`, there are two more folders in addition to a
 
 `/ionly`, which contains movie files with only the input corresponding to the segment, making it easier to copy inputs
 
---extra notes--
+___
 
-i'll try to add info about each file in the wiki section later on
+### extra notes
 
 i hope you enjoy scrabtasing!
