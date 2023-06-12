@@ -4,19 +4,19 @@
 
 ___
 
-`autosearch.lua`
+### autosearch.lua
 
 function: automatically finds the addresses for xypos, xypix, and xyspd
 
 stability: 4/5
 
-version: v.03.01
+version: v.03.02
 
 upcoming: magic address
 
 ___
 
-`ghostcompare.lua`
+### ghostcompare.lua
 
 function: compares against a ghost of your run to make improvements easier
 
@@ -28,7 +28,7 @@ upcoming: precise distance
 
 ___
 
-`rtdist.lua`
+### rtdist.lua
 
 function: shows the distance between a room transition in all directions
 
