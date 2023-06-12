@@ -1,4 +1,4 @@
---- autosearch v.03.01 --- by queenbea ---
+--- autosearch v.03.02 --- by queenbea ---
 
 --- usage instructions ---
 -- 1) go to tools > lua > execute lua script and run this script
@@ -14,23 +14,25 @@
 -- 3) if the address is within the range, send the full console log and address in the tasing thread and i'll try my best to fix it
 
 -- setup variables
-lowerbound, upperbound = 0x366d8f68, 0x38261cb8
-spdlbound, spdubound = 0x142ff0, 0x2b2340
-xpos, ypos, xpix, ypix, xspd, yspd = 0x0, 0x0, 0x0, 0x0, 0x0, 0x0
+sframe, spix = 1292, 266
+lowerbound, upperbound = 0x36557628, 0x38261cb8
+spdlbound, spdubound = 0x142ff0, 0x2b4250
+xpos, ypos, xpix, ypix, xspd, yspd = 0x0
 searched = false
 function onStartup()
     -- reset variables
-    print("-- autosearch v.03.01 -- by queenbea --")
-    lowerbound, upperbound = 0x366d8f68, 0x38261cb8
-    spdlbound, spdubound = 0x142ff0, 0x2b2340
-    xpos, ypos, xpix, ypix, xspd, yspd = 0x0, 0x0, 0x0, 0x0, 0x0, 0x0
+    print("-- autosearch v.03.00 -- by queenbea --")
+    sframe, spix = 1292, 266
+    lowerbound, upperbound = 0x36557628, 0x38261cb8
+    spdlbound, spdubound = 0x142ff0, 0x2b4250
+    xpos, ypos, xpix, ypix, xspd, yspd = 0x0
     searched = false
 end
 function onFrame()
     -- perform the searches
     if searched == false then
         -- first search
-        if movie.currentFrame() == 1292 then
+        if movie.currentFrame() == sframe then
             -- move blue
             input.setKey(100,1)
             print("starting search 1...")
@@ -40,7 +42,7 @@ function onFrame()
             currentaddress = lowerbound
             -- search loop
             for i=0x0,(upperbound-lowerbound)/0x10 do
-                if memory.readf(currentaddress) == 266 then
+                if memory.readf(currentaddress) == spix then
                     print("address candidate "..currentindex.." found!")
                     addresslist[currentindex] = currentaddress
                     currentindex = currentindex+1
@@ -49,7 +51,7 @@ function onFrame()
             end
         end
         -- second search
-        if movie.currentFrame() == 1293 then
+        if movie.currentFrame() == sframe+1 then
             -- move blue
             input.setKey(100,1)
             print("starting search 2...")
@@ -59,7 +61,7 @@ function onFrame()
             -- search loop
             for i=1,addresslength do
                 currentaddress = addresslist[i]
-                if memory.readf(currentaddress) == 267 then
+                if memory.readf(currentaddress) == spix+1 then
                     print("xpix address found! [source: addresslist]")
                     xpix = currentaddress
                 elseif memory.readf(currentaddress+0xb80) == 267 then
@@ -73,9 +75,9 @@ function onFrame()
             ypos = xpos+0x4
         end
         -- move blue
-        if movie.currentFrame() == 1294 or movie.currentFrame() == 1295 then input.setKey(100,1) end
+        if movie.currentFrame() == sframe+2 or movie.currentFrame() == sframe+3 then input.setKey(100,1) end
         -- third search
-        if movie.currentFrame() == 1296 then
+        if movie.currentFrame() == sframe+4 then
             -- move blue
             input.setKey(100,0)
             print("starting search 3...")
@@ -94,9 +96,9 @@ function onFrame()
             end
         end
         -- move blue
-        if movie.currentFrame() > 1296 and movie.currentFrame() < 1300 then input.setKey(100,0) end
+        if movie.currentFrame() > sframe+4 and movie.currentFrame() < sframe+8 then input.setKey(100,0) end
         -- fourth search
-        if movie.currentFrame() == 1300 then
+        if movie.currentFrame() == sframe+8 then
             -- move blue
             input.setKey(100,1)
             print("starting search 4...")
@@ -116,7 +118,7 @@ function onFrame()
             end
         end
         -- fifth search
-        if movie.currentFrame() == 1301 then
+        if movie.currentFrame() == sframe+9 then
             -- move blue
             input.setKey(100,0)
             print("starting search 5...")
