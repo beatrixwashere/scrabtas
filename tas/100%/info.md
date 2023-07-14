@@ -1,4 +1,4 @@
-## completion: 3%
+## completion: 7%
 
 routing info can be found [here!](https://docs.google.com/document/d/1KUBmR0-ctJrtTES50dgoNFmQ72UvbEiE0H9QvzIxffc/edit?usp=sharing)
 
@@ -48,9 +48,57 @@ full time: 5517f (1:31.950) | room time: 316f (5.267)
 
 author(s): queenbea
 
+#### note: the following files start from 138.save
+
+== `138_(15,4,rr)_s138` ==
+
+full time: n/a | room time: 98f (1.633)
+
+author(s): queenbea
+
+== `139_(14,4,rr)_s138` ==
+
+full time: n/a | room time: 155f (2.583)
+
+author(s): queenbea
+
+== `140_(13,4,rr)_s138` ==
+
+full time: n/a | room time: 129f (2.150)
+
+author(s): queenbea
+
+== `141_(13,5,rr)_s138` ==
+
+full time: n/a | room time: 123f (2.050)
+
+author(s): queenbea
+
+== `142_(14,5,rr)_s138` ==
+
+full time: n/a | room time: 133f (2.217)
+
+author(s): queenbea
+
+== `143_(15,5,rr)_s138` ==
+
+full time: n/a | room time: 208f (3.467)
+
+author(s): queenbea
+
+== `144_(16,5,rr)_s138` ==
+
+full time: n/a | room time: 295f (4.917)
+
+author(s): queenbea
+
 ___
 
 ### improvements
+
+`138:` 5/5 | there is a 23f faster tas with witchdashing that hasn't been synced yet
+
+`139-144:` 4/5 | better bgn setup and dashing
 
 `005:` 4/5 | faster moveement and save
 
