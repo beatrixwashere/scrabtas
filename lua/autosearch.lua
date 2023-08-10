@@ -1,4 +1,4 @@
---- autosearch v.03.02 --- by queenbea ---
+--- autosearch v.03.03 --- by queenbea ---
 
 --- usage instructions ---
 -- 1) go to tools > lua > execute lua script and run this script
@@ -15,7 +15,7 @@
 
 -- setup variables
 sframe, spix = 1292, 266
-lowerbound, upperbound = 0x36557628, 0x38261cb8
+lowerbound, upperbound = 0x364fb5e8, 0x38261cb8
 spdlbound, spdubound = 0x142ff0, 0x2b4250
 xpos, ypos, xpix, ypix, xspd, yspd = 0x0
 searched = false
@@ -23,7 +23,7 @@ function onStartup()
     -- reset variables
     print("-- autosearch v.03.00 -- by queenbea --")
     sframe, spix = 1292, 266
-    lowerbound, upperbound = 0x36557628, 0x38261cb8
+    lowerbound, upperbound = 0x364fb5e8, 0x38261cb8
     spdlbound, spdubound = 0x142ff0, 0x2b4250
     xpos, ypos, xpix, ypix, xspd, yspd = 0x0
     searched = false
@@ -138,16 +138,16 @@ function onFrame()
             -- print all addresses
             if xpix ~= 0x0 then
                 print("-- results --")
-                print("xpos: 0x"..string.format("%x",xpos))
-                print("ypos: 0x"..string.format("%x",ypos))
-                print("xpix: 0x"..string.format("%x",xpix))
-                print("ypix: 0x"..string.format("%x",ypix))
+                print("xpos: "..string.format("%x",xpos))
+                print("ypos: "..string.format("%x",ypos))
+                print("xpix: "..string.format("%x",xpix))
+                print("ypix: "..string.format("%x",ypix))
             else
                 print("error: xpix address not found")
             end
             if xspd ~= 0x0 then
-                print("xspd: 0x"..string.format("%x",xspd))
-                print("yspd: 0x"..string.format("%x",yspd))
+                print("xspd: "..string.format("%x",xspd))
+                print("yspd: "..string.format("%x",yspd))
             else
                 print("error: xspd address not found")
             end
