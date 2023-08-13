@@ -10,7 +10,7 @@ function: automatically finds the addresses for xypos, xypix, and xyspd
 
 stability: 4/5
 
-version: v.03.02
+version: v.04.00
 
 upcoming: magic address
 
