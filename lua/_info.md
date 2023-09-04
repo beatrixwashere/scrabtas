@@ -16,6 +16,18 @@ upcoming: magic address
 
 ___
 
+### arti.lua
+
+function: automatically walks to a series of targets, and helps with drafting
+
+stability: 3/5
+
+version: v.01.00
+
+upcoming: ingame target config
+
+___
+
 ### ghostcompare.lua
 
 function: compares against a ghost of your run to make improvements easier
