@@ -1,11 +1,11 @@
---- arti v.02.00 --- by queenbea ---
+--- arti v.02.01 --- by queenbea ---
 
 --- about ---
 -- arti (automated route tasing instrument) is a script that automates walking movement.
 -- by setting a series of targets, this will navigate to each target in as straight of a line as possible.
 -- currently, this script is pretty difficult to set up, and i'll make it much easier to use in the future.
 -- also, the algorithm isn't perfect, but still uses 32 different walking patterns, which can vary as small as 7.5 degrees.
--- enjoy the script! this might eventuaally be useful as a drafting tool so keep an eye out for that
+-- enjoy the script! i hope i could maybe expand this into a drafting tool if possible.
 
 --- howto ---
 -- 1) follow the autosearch howto to set up the position variables
@@ -28,7 +28,7 @@ inputs = {}
 function onFrame()
     -- set up position variables
     if px == 0 or py == 0 then
-        local file,err = io.open("output.wch",'r')
+        local file,err = io.open("otherstuff/scrabtasle/output.wch",'r')
         if file then
             local lines = {}
             for i in file:lines() do
@@ -60,6 +60,9 @@ function onFrame()
             print("algorithm started, wait for it to finish or press c to stop")
         else
             algoactive = 0
+            targetactive, targetdir, currentdir, inputdir = 0, 0, 0, 0
+            queue = {}
+            inputs = {}
             print("algorithm stopped")
         end
     end
@@ -171,6 +174,9 @@ function onFrame()
                 end
             end
             algoactive = 0
+            targetactive, targetdir, currentdir, inputdir = 0, 0, 0, 0
+            queue = {}
+            inputs = {}
         end
     end
 end
