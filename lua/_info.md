@@ -22,7 +22,7 @@ function: automatically walks to a series of targets, and helps with drafting
 
 stability: 4/5
 
-version: v.02.00
+version: v.02.01
 
 upcoming: more polish
 
