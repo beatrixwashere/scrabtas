@@ -1,3 +1,5 @@
+# this info document was last updated for segment 008, and times and rooms are inaccurate. additionally, the routing document is not up to date. if you're looking to make progress, download `025_(9,-1,bgr).ltm` and continue from there.
+
 ## completion: 7%
 
 routing info can be found [here!](https://docs.google.com/document/d/1KUBmR0-ctJrtTES50dgoNFmQ72UvbEiE0H9QvzIxffc/edit?usp=sharing)
