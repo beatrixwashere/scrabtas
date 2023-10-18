@@ -1,4 +1,4 @@
-# scrabtasle
+# scrabtas
 github repo for tasing scrabdackle, including movie files, encodes, and other resources
 
 ___
